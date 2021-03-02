@@ -117,7 +117,7 @@ function Item (props) {
         onChange={e => {
           setVal(e.target.value)
         }}
-        value={props.value}
+        value={val}
       />
       <IconButton
         aria-label='delete'
